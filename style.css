@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: darkgray;
+    color: gray;
 }
 
 ul{
@@ -20,7 +20,7 @@ ul li{
 
 a{
     text-decoration: none;
-    color: darkgray;
+    color: gray;
 }
 
 .container{
@@ -30,6 +30,11 @@ a{
 
 .current{
     color: turquoise;
+}
+
+img{
+    max-width: 400px;
+    max-height: 600px;
 }
 /* Navbar */
 
@@ -59,4 +64,34 @@ header{
     color: seagreen;
     padding-bottom: 8px;
     border-bottom: 1px #e8491d solid;
+}
+
+/* Showcase */
+
+#showcase{
+    height: 70vh;
+    display: flex;
+}
+#showcase .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#showcase p{
+    font-weight: bold;
+}
+
+#showcase .name{
+    font-size: 70px;
+}
+
+#showcase .first{
+    color: #000;
+}
+
+#showcase .highlight{
+    font-size: 24px;
+    background: -webkit-linear-gradient(palevioletred, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
