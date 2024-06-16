@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;
 }
 
 ul{
@@ -19,18 +20,22 @@ ul li{
 
 a{
     text-decoration: none;
-    color: #000;
+    color: darkgray;
 }
 
 .container{
     width: 80%;
     margin: auto;
 }
+
+.current{
+    color: turquoise;
+}
 /* Navbar */
 
 header{
     height: 70px;
-    background-color: #ccc;
+    background-color: #fff;
     display: flex;
 }
 
@@ -42,6 +47,11 @@ header{
 .links{
     display: flex;
     align-items: center;
+    font-weight: 500;
+}
+
+.links li a{
+    font-weight: bold;
 }
 
 .links li a:hover{
