@@ -103,7 +103,7 @@ header{
     height: 70vh;
     display: flex;
     
-    background-color: turquoise;
+    /*background-color: turquoise;*/
 }
 
 #skills .container{
