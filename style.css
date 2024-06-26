@@ -102,7 +102,7 @@ header{
 #skills{
     height: 70vh;
     display: flex;
-    
+    color: #000;
     /*background-color: turquoise;*/
 }
 
