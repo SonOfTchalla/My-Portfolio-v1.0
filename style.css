@@ -100,12 +100,17 @@ header{
     display: flex;
     color: #000;
     /*background-color: turquoise;*/
+    background: #333;
 }
 
 #skills .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#skills .container .skillset{
+    text-transform: uppercase;
 }
 
 #skills .container .skillset i{
