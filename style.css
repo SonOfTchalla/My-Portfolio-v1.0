@@ -113,6 +113,14 @@ header{
     text-transform: uppercase;
 }
 
+#skills .container .skillset h1{
+    text-align: center;
+}
+
+#skills .container .skillset h3{
+    margin: 5px;
+}
+
 #skills .container .skillset i{
     color: green;
 }
