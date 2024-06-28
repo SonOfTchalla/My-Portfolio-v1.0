@@ -122,6 +122,11 @@ header{
     text-align: center;
 }
 
+#skills .container .skillset li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
 #skills .container .skillset h3{
     margin: 5px;
 }
