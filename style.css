@@ -98,8 +98,6 @@ header{
 #skills{
     height: 70vh;
     display: flex;
-    color: #000;
-    /*background-color: turquoise;*/
     background: #333;
 }
 
@@ -114,7 +112,7 @@ header{
     width: 500px;
     margin: 60px auto;
     color: #fff;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -123,7 +121,7 @@ header{
 }
 
 #skills .container .skillset li{
-    margin: 20px 0;
+    margin: 0px 0;
     padding: 10px;
 }
 
@@ -136,9 +134,9 @@ header{
 }
 
 #skills .container .skillset li .bar{
-    background: green;
+    background: #353b48;
     display: block;
-    height: 20px;
+    height: 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
@@ -150,4 +148,68 @@ header{
 #skills .container .skillset li .bar:hover{
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
+#skills .container .skillset li .bar span{
+    height: 10px;
+    float: left;
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+}
+
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+
+.cpp{
+    width: 70%;
+    animation: cpp 3s;
+}
+
+.c{
+    width: 45%;
+    animation: c 3s;
+}
+
+.js{
+    width: 40%;
+    animation: js 3s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes cpp {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes c {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
 
