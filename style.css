@@ -213,3 +213,24 @@ header{
 }
 
 
+/* Why Hire Me*/
+
+#why{
+    height: 100vh;
+    /*background-color: red;*/
+}
+
+#why .container .heading{
+    text-align: center;
+    padding: 60px 0;
+    width: 900px;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+#why .container .heading h1{
+    font-size: 40px;
+    color: palevioletred;
+    padding-bottom: 20px;
+}
