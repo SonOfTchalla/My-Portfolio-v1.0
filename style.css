@@ -223,24 +223,35 @@ header{
 #why .container .heading{
     text-align: center;
     padding: 60px 0;
-    width: 900px;
+    width: 700px;
     margin: auto;
-    font-size: 20px;
+    /*font-size: 20px;*/
     
 }
 
 #why .container .heading h1{
-    font-size: 40px;
+    /*font-size: 40px;*/
     color: palevioletred;
     padding-bottom: 20px;
-}
-
-#why .container .columns .box img{
-    width: 40px;
 }
 
 #why .container .columns{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
+    gap: 90px;
+}
+
+#why .container .columns .box{
+    text-align: center;
+}
+
+#why .container .columns .box img{
+    width: 40px;
+    padding-bottom: 10px;
+}
+
+#why .container .columns .box h3{
+    /*font-size: 25px;*/
+    color: #454545;
+    padding-bottom: 10px;
 }
