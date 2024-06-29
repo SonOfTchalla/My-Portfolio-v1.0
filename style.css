@@ -234,3 +234,13 @@ header{
     color: palevioletred;
     padding-bottom: 20px;
 }
+
+#why .container .columns .box img{
+    width: 40px;
+}
+
+#why .container .columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
