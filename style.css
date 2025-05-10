@@ -117,7 +117,7 @@ header{
 #skills{
     height: 70vh;
     display: flex;
-    background: #333;
+    background: var(--primary-color);
 }
 
 #skills .container{
@@ -135,6 +135,14 @@ header{
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+#skills .container .skillset #icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 4rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
 #skills .container .skillset h1{
     text-align: center;
 }
@@ -142,6 +150,7 @@ header{
 #skills .container .skillset li{
     margin: 0px 0;
     padding: 10px;
+    justify-self: center;
 }
 
 #skills .container .skillset h3{
@@ -149,13 +158,14 @@ header{
 }
 
 #skills .container .skillset i{
-    color: green;
+    color: #fff;
 }
 
 #skills .container .skillset li .bar{
     background: #353b48;
     display: block;
     height: 10px;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
@@ -180,17 +190,17 @@ header{
     animation: html 3s;
 }
 
-.cpp{
+.css{
     width: 70%;
     animation: cpp 3s;
 }
 
-.c{
+.js{
     width: 45%;
     animation: c 3s;
 }
 
-.js{
+.java{
     width: 40%;
     animation: js 3s;
 }
