@@ -77,24 +77,28 @@ header{
 #showcase .container{
     display: flex;
     justify-content: space-around;
-}
-
-#showcase p{
-    font-weight: bold;
+    align-items: center;
 }
 
 #showcase #profile-pic #photo{
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 50%;
 }
 
-#showcase .name{
-    font-size: 70px;
+#showcase #description{
+    width: 50%;
 }
 
-#showcase .first{
-    color: #000;
+#showcase .name{
+    font-size: 4rem;
+    padding-bottom: 0.8rem;
+}
+#showcase p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 80%;
+    padding-bottom: 0.8rem;
 }
 
 
