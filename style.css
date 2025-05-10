@@ -83,6 +83,12 @@ header{
     font-weight: bold;
 }
 
+#showcase #profile-pic #photo{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
 #showcase .name{
     font-size: 70px;
 }
@@ -91,12 +97,6 @@ header{
     color: #000;
 }
 
-#showcase .highlight{
-    font-size: 24px;
-    background: -webkit-linear-gradient(palevioletred, pink);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 /* Skills */
 
