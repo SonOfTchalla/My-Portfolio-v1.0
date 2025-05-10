@@ -90,17 +90,27 @@ header{
     width: 50%;
 }
 
-#showcase .name{
+#showcase #description .name{
     font-size: 4rem;
     padding-bottom: 0.8rem;
 }
-#showcase p{
+#showcase #description p{
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: bolder;
     width: 80%;
     padding-bottom: 0.8rem;
 }
 
+#showcase #description button{
+    border: none;
+    background-color: var(--primary-color);
+    padding: 14px;
+    font-size: 1.25rem;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 /* Skills */
 
