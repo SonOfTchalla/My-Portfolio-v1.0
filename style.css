@@ -78,7 +78,7 @@ header{
 }
 #showcase .container{
     display: flex;
-    justify-content: space-around;
+    gap: 4rem;
     align-items: center;
 }
 
@@ -244,44 +244,39 @@ header{
 }
 
 
-/* Why Hire Me*/
+/* Projects */
 
-#why{
-    height: 700px;
-    /*background-color: red;*/
+#projects{
+    height: 90vh;
 }
 
-#why .container .heading{
-    text-align: center;
+#projects .container .heading{
     padding: 60px 0;
-    width: 700px;
-    margin: auto;
-    /*font-size: 20px;*/
-    
+    width: 100%;
 }
 
-#why .container .heading h1{
-    /*font-size: 40px;*/
-    color: palevioletred;
+#projects .container .heading .highlight{
+    color: inherit;
     padding-bottom: 20px;
+    font-size: 2rem;
 }
 
-#why .container .columns{
+#projects .container .columns{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 90px;
 }
 
-#why .container .columns .box{
+#projects .container .columns .box{
     text-align: center;
 }
 
-#why .container .columns .box img{
+#projects .container .columns .box img{
     width: 40px;
     padding-bottom: 10px;
 }
 
-#why .container .columns .box h3{
+#projects .container .columns .box h3{
     /*font-size: 25px;*/
     color: #454545;
     padding-bottom: 10px;
