@@ -251,35 +251,44 @@ header{
 }
 
 #projects .container .heading{
-    padding: 60px 0;
+    padding: 60px 0 20px 0;
     width: 100%;
 }
 
 #projects .container .heading .highlight{
     color: inherit;
-    padding-bottom: 20px;
     font-size: 2rem;
 }
 
 #projects .container .columns{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 90px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
 }
 
 #projects .container .columns .box{
-    text-align: center;
+    text-align: start;
 }
 
-#projects .container .columns .box img{
-    width: 40px;
+#projects .container .columns .box .logo{
+    width: 50%;
+    height: 50%;
     padding-bottom: 10px;
 }
 
-#projects .container .columns .box h3{
-    /*font-size: 25px;*/
+#projects .container .columns .box .project-name{
+    color: inherit;
+    padding-bottom: 10px;
+}
+
+#projects .container .columns .box .description{
     color: #454545;
-    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#projects .container .columns .box .icon{
+    height: 20px;
+    margin-bottom: 10px;
 }
 
 /* Rating */
