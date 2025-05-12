@@ -34,6 +34,12 @@ img{
     max-width: 400px;
     max-height: 600px;
 }
+
+.icon{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
 /* Navbar */
 
 header{
@@ -286,18 +292,36 @@ header{
     font-weight: bold;
 }
 
-.icon{
-    height: 20px;
-    margin-bottom: 10px;
-}
 
 #projects .container .columns .box .icon:hover{
     background-color: #e8491d;
     border-radius: 50%;
 }
 
-/* Rating */
-#rating{
-    height: 200px;
-    margin-top: 20px;
+/* Contact Me */
+#contact-me{
+    padding: 2rem 0 2rem 0;
+}
+
+#contact-me .heading{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#contact-me .message{
+    margin-bottom: .8rem;
+}
+
+#contact-me .link {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#contact-me .link p{
+    font-weight: bolder;
+}
+#contact-me .link .icon{
+    margin-bottom: 0;
 }
