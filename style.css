@@ -286,7 +286,7 @@ header{
     font-weight: bold;
 }
 
-#projects .container .columns .box .icon{
+.icon{
     height: 20px;
     margin-bottom: 10px;
 }
